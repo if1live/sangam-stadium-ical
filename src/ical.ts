@@ -6,6 +6,8 @@ const lines_start = [
   "VERSION:2.0",
   "PRODID:-//YourAppName//KoreanScheduleExport//EN",
   "CALSCALE:GREGORIAN",
+  "X-WR-CALNAME:서울월드컵경기장",
+  "X-WR-TIMEZONE:Asia/Seoul",
 ];
 const lines_end = ["END:VCALENDAR", ""];
 
