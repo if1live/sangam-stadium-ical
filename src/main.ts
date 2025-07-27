@@ -11,7 +11,7 @@ import type { MyEvent } from "./types.js";
 const year = 2025;
 
 const fp_sched = path.join(process.cwd(), "docs", "schedule.json");
-const fp_ics = path.join(process.cwd(), "docs", "sangam-stadium.ics");
+const fp_ics = path.join(process.cwd(), "docs", "calendar.ics");
 
 const write = async () => {
   const json = await fs.readFile(fp_sched, "utf8");
