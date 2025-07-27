@@ -10,12 +10,12 @@
 >
 > 열차 최소 3번은 놓칠듯 ㅠ
 >
-> https://bbs.ruliweb.com/etcs/board/300781/read/57392774
-
+> <https://bbs.ruliweb.com/etcs/board/300781/read/57392774>
 
 ## URL
 
-https://raw.githubusercontent.com/if1live/sangam-stadium-ical/refs/heads/main/data/sangam-stadium.ics
+<https://raw.githubusercontent.com/if1live/sangam-stadium-ical/refs/heads/main/data/sangam-stadium.ics>
+
 [iCal](https://raw.githubusercontent.com/if1live/sangam-stadium-ical/refs/heads/main/data/sangam-stadium.ics)
 
 ## usage
@@ -27,3 +27,15 @@ pnpm tsx src/main.ts crawl
 # schedule.json -> sangam-stadium.ics
 pnpm tsx src/main.ts write
 ```
+
+## 데이터 출처
+
+서울시설공단 - 서울월드컵경기장 - 시설이용안내 - 경기/행사 일정
+... 을 적당히 크롤링
+
+<https://www.sisul.or.kr/open_content/sub/schedule/list.do?year=2025&month=7&site_div=worldcupst>
+
+## TODO
+
+- [ ] 적당한 주기로 크롤링 자동화
+- [ ] 하드코딩한 2025년 어쩌지
