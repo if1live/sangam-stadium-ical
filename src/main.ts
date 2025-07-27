@@ -10,8 +10,8 @@ import type { MyEvent } from "./types.js";
 // 2026년 되면 그건 그때 고민하고
 const year = 2025;
 
-const fp_sched = path.join(process.cwd(), "data", "schedule.json");
-const fp_ics = path.join(process.cwd(), "data", "sangam-stadium.ics");
+const fp_sched = path.join(process.cwd(), "docs", "schedule.json");
+const fp_ics = path.join(process.cwd(), "docs", "sangam-stadium.ics");
 
 const write = async () => {
   const json = await fs.readFile(fp_sched, "utf8");
