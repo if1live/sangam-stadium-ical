@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { JSDOM } from "jsdom";
 import { createUrl, extractDay, parseSchedule } from "./helpers.js";
 
@@ -52,9 +53,20 @@ const main = async () => {
     "VERSION:2.0",
     "PRODID:-//YourAppName//KoreanScheduleExport//EN",
     "CALSCALE:GREGORIAN",
-    "",
   ];
   const lines_end = ["END:VCALENDAR"];
+
+  const lines_timezone = [
+    "BEGIN:VTIMEZONE",
+    "TZID:Asia/Seoul",
+    "BEGIN:STANDARD",
+    "DTSTART:19700101T000000",
+    "TZOFFSETFROM:+0900",
+    "TZOFFSETTO:+0900",
+    "TZNAME:KST",
+    "END:STANDARD",
+    "END:VTIMEZONE",
+  ];
 
   const dtstamp = getCurrentDtstamp();
   const line_dtstamp = `DTSTAMP:${dtstamp}`;
@@ -72,9 +84,14 @@ const main = async () => {
     const line_summary = `SUMMARY:${sched.schedule.title}`;
     const line_description = `DESCRIPTION:${sched.lines.join("\\n")}`;
 
+    // uid는 고유해야된다. 생성할떄마다 같은게 나오게 하고싶아
+    const text = sched.lines.join("\n");
+    const uid = createHash("md5").update(text).digest("hex");
+    const line_uid = `UID:${ymd}-${uid}@yourcalendar.com`;
+
     const lines = [
       "BEGIN:VEVENT",
-      "UID:20250929-wkleague@yourapp.com",
+      line_uid,
       line_dtstamp,
       line_dtstart,
       line_dtend,
@@ -82,12 +99,16 @@ const main = async () => {
       line_description,
       "LOCATION:서울월드컵경기장",
       "END:VEVENT",
-      "",
     ];
     lines_event.push(...lines);
   }
 
-  const lines = [...lines_start, ...lines_event, ...lines_end];
+  const lines = [
+    ...lines_start,
+    ...lines_timezone,
+    ...lines_event,
+    ...lines_end,
+  ];
   const ical = lines.join("\n");
   console.log(ical);
 };
