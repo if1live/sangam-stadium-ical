@@ -15,10 +15,8 @@
 ## URL
 
 - iCal
-  - <https://if1live.github.io/sangam-stadium-ical/calendar.ics>
-  - <https://github.com/if1live/sangam-stadium-ical/blob/main/docs/calendar.ics>
+  - <https://raw.githubusercontent.com/if1live/sangam-stadium-ical/refs/heads/main/docs/calendar.ics>
 - JSON
-  - <https://if1live.github.io/sangam-stadium-ical/schedule.json>
   - <https://github.com/if1live/sangam-stadium-ical/blob/main/docs/schedule.json>
 
 
@@ -43,3 +41,5 @@ pnpm tsx src/main.ts write
 
 - [ ] 적당한 주기로 크롤링 자동화
 - [ ] 하드코딩한 2025년 어쩌지
+- [ ] github pages로 하면 왜 google calendar에서 못알아먹을까? raw file만 되나?
+
