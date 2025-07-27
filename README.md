@@ -14,9 +14,13 @@
 
 ## URL
 
-<https://if1live.github.io/sangam-stadium-ical/calendar.ics>
+- iCal
+  - <https://if1live.github.io/sangam-stadium-ical/calendar.ics>
+  - <https://github.com/if1live/sangam-stadium-ical/blob/main/docs/calendar.ics>
+- JSON
+  - <https://if1live.github.io/sangam-stadium-ical/schedule.json>
+  - <https://github.com/if1live/sangam-stadium-ical/blob/main/docs/schedule.json>
 
-[iCal](https://if1live.github.io/sangam-stadium-ical/calendar.ics)
 
 ## usage
 
