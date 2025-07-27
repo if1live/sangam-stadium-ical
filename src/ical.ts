@@ -42,8 +42,13 @@ export const transformVEvent = (sched: MyEvent, now: Date) => {
   const day = sched.date.day.toString().padStart(2, "0");
   const ymd = `${year}${month}${day}`;
 
-  const line_dtstart = `DTSTART;TZID=Asia/Seoul:${ymd}T010000`;
-  const line_dtend = `DTEND;TZID=Asia/Seoul:${ymd}T230000`;
+  // 시간을 넣을수 있는 경우
+  // const line_dtstart = `DTSTART;TZID=Asia/Seoul:${ymd}T010000`;
+  // const line_dtend = `DTEND;TZID=Asia/Seoul:${ymd}T230000`;
+
+  // 시작시간, 종료시간이 정의되지 않은 일정이 많아서 하루종일 이벤트로 설정
+  const line_dtstart = `DTSTART;TZID=Asia/Seoul:${ymd}`;
+  const line_dtend = `DTEND;TZID=Asia/Seoul:${ymd}`;
   const line_summary = `SUMMARY:${sched.schedule.title}`;
   const line_description = `DESCRIPTION:${sched.lines.join("\\n")}`;
 

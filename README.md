@@ -14,9 +14,9 @@
 
 ## URL
 
-<https://raw.githubusercontent.com/if1live/sangam-stadium-ical/refs/heads/main/data/sangam-stadium.ics>
+<https://if1live.github.io/sangam-stadium-ical/calendar.ics>
 
-[iCal](https://raw.githubusercontent.com/if1live/sangam-stadium-ical/refs/heads/main/data/sangam-stadium.ics)
+[iCal](https://if1live.github.io/sangam-stadium-ical/calendar.ics)
 
 ## usage
 
