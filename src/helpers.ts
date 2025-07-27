@@ -13,7 +13,7 @@ export const createUrl = (year: number, month: number) => {
 
 const reNumber = /^\d+$/;
 
-export const extractDate = (trElem: ParentNode) => {
+export const extractDay = (trElem: ParentNode) => {
   for (const child of trElem.childNodes) {
     const text = child.textContent?.trim();
     if (!text) {
@@ -96,9 +96,7 @@ export const parseMatchup = (lines: string[]): string | undefined => {
 };
 
 // 데이터 처리 쉽게 하려고 공백 적당히 제거된 내용 가공
-export const parseSchedule = (text: string): Schedule => {
-  const lines = text.split("\n");
-
+export const parseSchedule = (lines: string[]): Schedule => {
   // 제목은 첫줄 그대로 써도 되지 않을까?
   // 어차피 나한테 관심있는건 행사의 내용이 아니라 존재 여부니까
   const firstLine = lines[0] ?? "";

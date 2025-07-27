@@ -68,7 +68,7 @@ const scheduleText = (text: string) => {
     .split("\n")
     .map((x) => x.trim())
     .filter((x) => x.length > 0);
-  return lines.join("\n");
+  return lines;
 };
 
 describe("parseSchedule", () => {

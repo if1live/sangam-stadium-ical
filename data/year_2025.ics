@@ -1,0 +1,366 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//YourAppName//KoreanScheduleExport//EN
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250222T010000
+DTEND;TZID=Asia/Seoul:20250222T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 안양(16:30)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250303T010000
+DTEND;TZID=Asia/Seoul:20250303T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 김천(14:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250329T010000
+DTEND;TZID=Asia/Seoul:20250329T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 대구(14:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250410T010000
+DTEND;TZID=Asia/Seoul:20250410T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 수원FC\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250412T010000
+DTEND;TZID=Asia/Seoul:20250412T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 대전(16:30)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250414T010000
+DTEND;TZID=Asia/Seoul:20250414T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 화천KSPO\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250419T010000
+DTEND;TZID=Asia/Seoul:20250419T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 광주(19:00)\n장 소 : 서울월드컵경기장\n일정변경 : 기존 4/20 - 4/19\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250424T010000
+DTEND;TZID=Asia/Seoul:20250424T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 창녕WFC\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250430T010000
+DTEND;TZID=Asia/Seoul:20250430T230000
+SUMMARY:서울월드컵경기장 공공행사
+DESCRIPTION:[서울월드컵경기장 공공행사]\n주 최 : 서울특별시, 서울관광재단\n내 용 : 서울 스프링 페스타 개막식\n행사일 : 2025.04.30(수)
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250503T010000
+DTEND;TZID=Asia/Seoul:20250503T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 전북(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250508T010000
+DTEND;TZID=Asia/Seoul:20250508T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 문경상무\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250522T010000
+DTEND;TZID=Asia/Seoul:20250522T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 세종스포츠토토\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250524T010000
+DTEND;TZID=Asia/Seoul:20250524T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 수원FC (16:30)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250531T010000
+DTEND;TZID=Asia/Seoul:20250531T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 제주(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250610T010000
+DTEND;TZID=Asia/Seoul:20250610T230000
+SUMMARY:2026 북중미월드컵 아시아지역 3차예선 대한민국 vs 쿠웨이트
+DESCRIPTION:경 기 명 : 2026 북중미월드컵 아시아지역 3차예선 대한민국 vs 쿠웨이트\n경 기 일 : 2025. 6. 10(화) 20:00
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250612T010000
+DTEND;TZID=Asia/Seoul:20250612T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 인천현대제철\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250617T010000
+DTEND;TZID=Asia/Seoul:20250617T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 강원(19:30)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250623T010000
+DTEND;TZID=Asia/Seoul:20250623T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 수원FC\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250626T010000
+DTEND;TZID=Asia/Seoul:20250626T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 화천KSPO\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250629T010000
+DTEND;TZID=Asia/Seoul:20250629T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 포항(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250702T010000
+DTEND;TZID=Asia/Seoul:20250702T230000
+SUMMARY:2025 코리아컵 8강
+DESCRIPTION:[2025 코리아컵 8강]\n대 진 : 서울 vs 전북(19:30)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250720T010000
+DTEND;TZID=Asia/Seoul:20250720T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 울산(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250721T010000
+DTEND;TZID=Asia/Seoul:20250721T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 인천현대제철\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250731T010000
+DTEND;TZID=Asia/Seoul:20250731T230000
+SUMMARY:2025 FC서울 친선경기
+DESCRIPTION:[2025 FC서울 친선경기]\n대 진 : 서울 vs FC바르셀로나\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250803T010000
+DTEND;TZID=Asia/Seoul:20250803T230000
+SUMMARY:2025 쿠팡플레이시리즈
+DESCRIPTION:2025 쿠팡플레이시리즈\n대 진 : 토트넘vs 뉴캐슬\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : www.coupangplay.com\n- 대표번호 : 1600-9800
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250808T010000
+DTEND;TZID=Asia/Seoul:20250808T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 대구(19:30)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250824T010000
+DTEND;TZID=Asia/Seoul:20250824T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 울산(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250825T010000
+DTEND;TZID=Asia/Seoul:20250825T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 창녕WFC\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250831T010000
+DTEND;TZID=Asia/Seoul:20250831T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 안양(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250913T010000
+DTEND;TZID=Asia/Seoul:20250913T230000
+SUMMARY:2025 아이콘매치
+DESCRIPTION:2025 아이콘매치
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250914T010000
+DTEND;TZID=Asia/Seoul:20250914T230000
+SUMMARY:2025 아이콘매치
+DESCRIPTION:2025 아이콘매치
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250915T010000
+DTEND;TZID=Asia/Seoul:20250915T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 문경상무\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250921T010000
+DTEND;TZID=Asia/Seoul:20250921T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 광주(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250927T010000
+DTEND;TZID=Asia/Seoul:20250927T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 전북(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20250929T010000
+DTEND;TZID=Asia/Seoul:20250929T230000
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 세종스포츠토토\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20250929-wkleague@yourapp.com
+DTSTAMP:20250727T135743Z
+DTSTART;TZID=Asia/Seoul:20251018T010000
+DTEND;TZID=Asia/Seoul:20251018T230000
+SUMMARY:2025 K리그1
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 포항(14:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+
+END:VCALENDAR
