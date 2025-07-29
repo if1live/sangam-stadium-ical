@@ -1,14 +1,18 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { Command } from "commander";
+import { z } from "zod";
 import { transformVCalendar } from "../ical.js";
 import type { MyEvent } from "../types.js";
+import { defaultDataDir } from "./options.js";
 
-export const dataDir = path.join(process.cwd(), "data");
+const inputSchema = z.object({
+  dataDir: z.string(),
+});
+type Input = z.infer<typeof inputSchema>;
 
-const fp_ics = path.join(dataDir, "calendar.ics");
-
-const write = async () => {
+const write = async (input: Input) => {
+  const { dataDir } = input;
   const files = await fs.readdir(dataDir);
   const candidates = files.filter(
     (file) => file.startsWith("schedule-") && file.endsWith(".json"),
@@ -33,10 +37,18 @@ const write = async () => {
 
   const now = new Date();
   const ics = transformVCalendar(events, now);
+  const fp_ics = path.join(dataDir, "calendar.ics");
   await fs.writeFile(fp_ics, ics, "utf8");
   console.log(`iCalendar data written to ${fp_ics}`);
 };
 
-export const icalCommand = new Command("ical").action(async (_options) => {
-  await write();
-});
+export const icalCommand = new Command("ical")
+  .option(
+    "--data-dir <path>",
+    "Data directory to save crawled data",
+    defaultDataDir,
+  )
+  .action(async (options) => {
+    const input = inputSchema.parse(options);
+    await write(input);
+  });

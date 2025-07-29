@@ -4,7 +4,7 @@ import { Command } from "commander";
 import { z } from "zod";
 import { createUrl } from "../helpers.js";
 import { parseMonthHtml } from "../parser.js";
-import { dataDir } from "./command_ical.js";
+import { dataDirSchema, defaultDataDir } from "./options.js";
 
 const yearSchema = z.number().int();
 const monthSchema = z.number().int().min(1).max(12);
@@ -14,8 +14,14 @@ type YearMonth = {
   month: number;
 };
 
-const crawl = async (input: YearMonth) => {
-  const { year, month } = input;
+const inputSchema = z.object({
+  dataDir: dataDirSchema,
+});
+type Input = z.infer<typeof inputSchema>;
+
+const crawl = async (input: Input, yearMonth: YearMonth) => {
+  const { dataDir } = input;
+  const { year, month } = yearMonth;
   const mm = month.toString().padStart(2, "0");
 
   const url = createUrl(year, month);
@@ -34,8 +40,14 @@ const crawl = async (input: YearMonth) => {
 
 // 지정된 날짜 크롤링
 export const crawlYearMonthCommand = new Command("crawl-year-month")
+  .option(
+    "--data-dir <path>",
+    "Data directory to save crawled data",
+    defaultDataDir,
+  )
   .requiredOption("--list <strings...>", "yyyy-mm (예: 2025-01 2025-02)")
   .action(async (options) => {
+    const input = inputSchema.parse(options);
     const list: YearMonth[] = options.list.map((item: string): YearMonth => {
       const tokens = item.split("-").map((x) => Number.parseInt(x, 10));
       const year = yearSchema.parse(tokens[0]);
@@ -43,20 +55,25 @@ export const crawlYearMonthCommand = new Command("crawl-year-month")
       return { year, month };
     });
 
-    const tasks = list.map(async (x) => crawl(x));
+    const tasks = list.map(async (x) => crawl(input, x));
     await Promise.all(tasks);
   });
 
 // 오늘을 기준으로 적절히 크롤링 범위 결정
-export const crawlFutureCommand = new Command("crawl-future").action(
-  async () => {
-    console.log("todo");
+export const crawlFutureCommand = new Command("crawl-future")
+  .option(
+    "--data-dir <path>",
+    "Data directory to save crawled data",
+    defaultDataDir,
+  )
+  .action(async (options) => {
+    const input = inputSchema.parse(options);
     const now = new Date();
     const year = now.getFullYear();
     const month = now.getMonth() + 1;
 
     const targets: YearMonth[] = [];
-    for (let m = month; m <= month + 3; m++) {
+    for (let m = month - 3; m <= month + 3; m++) {
       const date = new Date(year, m - 1);
       targets.push({
         year: date.getFullYear(),
@@ -64,7 +81,6 @@ export const crawlFutureCommand = new Command("crawl-future").action(
       });
     }
 
-    const tasks = targets.map(async (x) => crawl(x));
+    const tasks = targets.map(async (x) => crawl(input, x));
     await Promise.all(tasks);
-  },
-);
+  });
