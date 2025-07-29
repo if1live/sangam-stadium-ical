@@ -1,5 +1,5 @@
 import { assert, describe, it } from "vitest";
-import { createUrl } from "../src/helpers.js";
+import { createUrl } from "../src/helpers.ts";
 
 describe("createUrl", () => {
   it("match", () => {

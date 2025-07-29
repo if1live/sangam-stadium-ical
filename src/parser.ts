@@ -1,5 +1,5 @@
 import { JSDOM } from "jsdom";
-import type { Schedule } from "./types.js";
+import type { Schedule } from "./types.ts";
 
 const reNumber = /^\d+$/;
 

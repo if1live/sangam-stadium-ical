@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import type { MyEvent } from "./types.js";
+import type { MyEvent } from "./types.ts";
 
 const lines_start = [
   "BEGIN:VCALENDAR",

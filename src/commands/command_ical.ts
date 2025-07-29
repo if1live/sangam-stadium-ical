@@ -2,9 +2,9 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { Command } from "commander";
 import { z } from "zod";
-import { transformVCalendar } from "../ical.js";
-import type { MyEvent } from "../types.js";
-import { defaultDataDir } from "./options.js";
+import { transformVCalendar } from "../ical.ts";
+import type { MyEvent } from "../types.ts";
+import { defaultDataDir } from "./options.ts";
 
 const inputSchema = z.object({
   dataDir: z.string(),

@@ -2,9 +2,9 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { Command } from "commander";
 import { z } from "zod";
-import { createUrl } from "../helpers.js";
-import { parseMonthHtml } from "../parser.js";
-import { dataDirSchema, defaultDataDir } from "./options.js";
+import { createUrl } from "../helpers.ts";
+import { parseMonthHtml } from "../parser.ts";
+import { dataDirSchema, defaultDataDir } from "./options.ts";
 
 const yearSchema = z.number().int();
 const monthSchema = z.number().int().min(1).max(12);

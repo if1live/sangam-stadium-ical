@@ -1,5 +1,5 @@
 import { assert, describe, it } from "vitest";
-import { parseSchedule, parseSiteAndTel, parseTitle } from "../src/parser.js";
+import { parseSchedule, parseSiteAndTel, parseTitle } from "../src/parser.ts";
 
 describe("parseTitle", () => {
   it.each([
