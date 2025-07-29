@@ -35,8 +35,7 @@ const write = async (input: Input) => {
   });
   console.log(`Total events: ${events.length}`);
 
-  const now = new Date();
-  const ics = transformVCalendar(events, now);
+  const ics = transformVCalendar(events);
   const fp_ics = path.join(dataDir, "calendar.ics");
   await fs.writeFile(fp_ics, ics, "utf8");
   console.log(`iCalendar data written to ${fp_ics}`);

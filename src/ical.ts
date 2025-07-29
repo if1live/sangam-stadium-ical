@@ -36,7 +36,7 @@ const getCurrentDtstamp = (now: Date): string => {
   return `${year}${month}${day}T${hours}${minutes}${seconds}Z`;
 };
 
-export const transformVEvent = (sched: MyEvent, now: Date) => {
+export const transformVEvent = (sched: MyEvent) => {
   const year = sched.date.year;
   const month = sched.date.month.toString().padStart(2, "0");
   const day = sched.date.day.toString().padStart(2, "0");
@@ -57,8 +57,9 @@ export const transformVEvent = (sched: MyEvent, now: Date) => {
   const uid = createHash("md5").update(text).digest("hex");
   const line_uid = `UID:${ymd}-${uid}@yourcalendar.com`;
 
-  // 현재 시간 기준으로 하는거 야매긴한데 문제 없나?
-  const dtstamp = getCurrentDtstamp(now);
+  // 현재시간으로 하면 값이 계속 바뀌니까 그냥 값 고정. 큰 문제는 없겠지?
+  const dateTime = new Date(2025, 0, 1);
+  const dtstamp = getCurrentDtstamp(dateTime);
   const line_dtstamp = `DTSTAMP:${dtstamp}`;
 
   const lines = [
@@ -75,10 +76,10 @@ export const transformVEvent = (sched: MyEvent, now: Date) => {
   return lines;
 };
 
-export const transformVCalendar = (events: MyEvent[], now: Date): string => {
+export const transformVCalendar = (events: MyEvent[]): string => {
   const lines_event = [];
   for (const sched of events) {
-    const eventLines = transformVEvent(sched, now);
+    const eventLines = transformVEvent(sched);
     lines_event.push(...eventLines);
   }
 
