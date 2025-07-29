@@ -17,6 +17,9 @@ importers:
       remeda:
         specifier: ^2.26.1
         version: 2.26.1
+      zod:
+        specifier: ^4.0.13
+        version: 4.0.13
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.1.2
@@ -799,6 +802,9 @@ packages:
   xmlchars@2.2.0:
     resolution: {integrity: sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==}
 
+  zod@4.0.13:
+    resolution: {integrity: sha512-jv+zRxuZQxTrFHzxZ46ezL2FtnE+M4HIJHJEwLsZ7UjrXHltdG6HrxvqM0twoVCWxJiYf8WqKjAcjztegpkB+Q==}
+
 snapshots:
 
   '@asamuzakjp/css-color@3.2.0':
@@ -1438,3 +1444,5 @@ snapshots:
   xml-name-validator@5.0.0: {}
 
   xmlchars@2.2.0: {}
+
+  zod@4.0.13: {}
