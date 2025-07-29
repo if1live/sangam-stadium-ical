@@ -4,7 +4,7 @@ import { Command } from "commander";
 import { transformVCalendar } from "../ical.js";
 import type { MyEvent } from "../types.js";
 
-export const dataDir = path.join(process.cwd(), "docs");
+export const dataDir = path.join(process.cwd(), "data");
 
 const fp_ics = path.join(dataDir, "calendar.ics");
 
