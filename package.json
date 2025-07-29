@@ -17,14 +17,12 @@
   "dependencies": {
     "commander": "^14.0.0",
     "jsdom": "^26.1.0",
-    "remeda": "^2.26.1",
     "zod": "^4.0.13"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.2",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^24.1.0",
-    "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4"
   },
