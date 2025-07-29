@@ -21,6 +21,9 @@
   - <https://github.com/if1live/sangam-stadium-ical/tree/data>
 - iCal
   - <https://raw.githubusercontent.com/if1live/sangam-stadium-ical/refs/heads/data/calendar.ics>
+- 구글 캘린더 공개 URL
+  - <https://calendar.google.com/calendar/embed?src=uvg3h88kfrid1mffnktrrvp2tcvhvg22%40import.calendar.google.com&ctz=Asia%2FSeoul>
+  - 테스트하다 말아먹고 URL 바뀔 수 있어서 iCal 주소로 등록하는거 권장
 
 ## usage
 
