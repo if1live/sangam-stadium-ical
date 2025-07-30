@@ -73,7 +73,7 @@ export const crawlFutureCommand = new Command("crawl-future")
     const month = now.getMonth() + 1;
 
     const targets: YearMonth[] = [];
-    for (let m = month - 3; m <= month + 3; m++) {
+    for (let m = month - 6; m <= month + 6; m++) {
       const date = new Date(year, m - 1);
       targets.push({
         year: date.getFullYear(),
