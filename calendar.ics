@@ -383,12 +383,48 @@ DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 세종스포츠토토\n�
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
+UID:20250930-1b650a5375b94dcdced8220386b34821@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20250930
+DTEND;TZID=Asia/Seoul:20250930
+SUMMARY:FC서울 ACLE 1차전 Buriram United 전
+DESCRIPTION:경 기 명 : FC서울 ACLE 1차전 Buriram United 전\n경 기 일 : 2025. 9. 30(화) 19:00\n경기문의 : FC서울 (02.306.5050)
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
+UID:20251010-f87b70e5e29ceaaf27365c82ec560cf7@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20251010
+DTEND;TZID=Asia/Seoul:20251010
+SUMMARY:남자축구 국가대표팀 친선경기 브라질전
+DESCRIPTION:경 기 명 : 남자축구 국가대표팀 친선경기 브라질전\n경 기 일 : 2025. 10. 10(금) 20:00\n경기문의 : 대한축구협회 (041.538.6363)
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
+UID:20251014-c58b751bcb3dc5f7d3fb053889dbc91d@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20251014
+DTEND;TZID=Asia/Seoul:20251014
+SUMMARY:남자축구 국가대표팀 친선경기 파라과이전
+DESCRIPTION:경 기 명 : 남자축구 국가대표팀 친선경기 파라과이전\n경 기 일 : 2025. 10. 14(화) 20:00\n경기문의 : 대한축구협회 (041.538.6363)
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
 UID:20251018-e994f749fcc5d15116689c04a5da0c4f@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20251018
 DTEND;TZID=Asia/Seoul:20251018
 SUMMARY:2025 K리그1
 DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 포항(14:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
+UID:20251104-0239ac0e033d642dd283ea4bb679c0b5@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20251104
+DTEND;TZID=Asia/Seoul:20251104
+SUMMARY:FC서울 ACLE 홈 2차천 Chengdu Rongcheng FC전
+DESCRIPTION:경 기 명 : FC서울 ACLE 홈 2차천 Chengdu Rongcheng FC전\n경 기 일 : 2025. 11. 4(화) 19:00\n경기문의 : FC서울 (02.306.5050)
 LOCATION:서울월드컵경기장
 END:VEVENT
 END:VCALENDAR

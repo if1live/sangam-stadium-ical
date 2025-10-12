@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "date": {
+      "year": 2025,
+      "month": 11,
+      "day": 4
+    },
+    "schedule": {
+      "title": "FC서울 ACLE 홈 2차천 Chengdu Rongcheng FC전"
+    },
+    "lines": [
+      "경 기 명 : FC서울 ACLE 홈 2차천 Chengdu Rongcheng FC전",
+      "경 기 일 : 2025. 11. 4(화) 19:00",
+      "경기문의 : FC서울 (02.306.5050)"
+    ]
+  }
+]
