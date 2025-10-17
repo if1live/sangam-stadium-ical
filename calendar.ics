@@ -410,15 +410,6 @@ DESCRIPTION:경 기 명 : 남자축구 국가대표팀 친선경기 파라과이
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
-UID:20251018-e994f749fcc5d15116689c04a5da0c4f@yourcalendar.com
-DTSTAMP:20250101T000000Z
-DTSTART;TZID=Asia/Seoul:20251018
-DTEND;TZID=Asia/Seoul:20251018
-SUMMARY:2025 K리그1
-DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 포항(14:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
-LOCATION:서울월드컵경기장
-END:VEVENT
-BEGIN:VEVENT
 UID:20251104-0239ac0e033d642dd283ea4bb679c0b5@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20251104
