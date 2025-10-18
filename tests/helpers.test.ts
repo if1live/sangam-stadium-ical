@@ -3,7 +3,7 @@ import { createUrl } from "../src/helpers.ts";
 
 describe("createUrl", () => {
   it("match", () => {
-    const actual = createUrl(2025, 3);
+    const actual = createUrl(2025, 3, 1);
     const expected =
       "https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=03&day=01&site_div=worldcupst";
     assert.equal(actual, expected);

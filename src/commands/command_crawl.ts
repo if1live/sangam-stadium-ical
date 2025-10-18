@@ -24,7 +24,7 @@ const crawl = async (input: Input, yearMonth: YearMonth) => {
   const { year, month } = yearMonth;
   const mm = month.toString().padStart(2, "0");
 
-  const url = createUrl(year, month);
+  const url = createUrl(year, month, 1);
   const resp = await fetch(url);
   const html = await resp.text();
   const candidates = parseMonthHtml(year, month, html);
