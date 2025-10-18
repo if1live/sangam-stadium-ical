@@ -43,6 +43,13 @@ export const transformVEvent = (sched: MyEvent) => {
   const day = sched.date.day.toString().padStart(2, "0");
   const ymd = `${year}${month}${day}`;
 
+  const date = sched.date;
+  const url = createUrl(date.year, date.month, date.day);
+  const line_url = `URL:${url}`;
+
+  const content = [...sched.lines, url];
+  const description = content.join("\\n");
+
   // 시간을 넣을수 있는 경우
   // const line_dtstart = `DTSTART;TZID=Asia/Seoul:${ymd}T010000`;
   // const line_dtend = `DTEND;TZID=Asia/Seoul:${ymd}T230000`;
@@ -51,21 +58,16 @@ export const transformVEvent = (sched: MyEvent) => {
   const line_dtstart = `DTSTART;TZID=Asia/Seoul:${ymd}`;
   const line_dtend = `DTEND;TZID=Asia/Seoul:${ymd}`;
   const line_summary = `SUMMARY:${sched.schedule.title}`;
-  const line_description = `DESCRIPTION:${sched.lines.join("\\n")}`;
+  const line_description = `DESCRIPTION:${description}`;
 
-  // uid는 고유해야된다. 생성할떄마다 같은게 나오게 하고싶아
-  const text = sched.lines.join("\n");
-  const uid = createHash("md5").update(text).digest("hex");
+  // uid는 고유해야된다. 생성할떄마다 같은게 나오게 하고싶다
+  const uid = createHash("md5").update(description).digest("hex");
   const line_uid = `UID:${ymd}-${uid}@yourcalendar.com`;
 
   // 현재시간으로 하면 값이 계속 바뀌니까 그냥 값 고정. 큰 문제는 없겠지?
   const dateTime = new Date(2025, 0, 1);
   const dtstamp = getCurrentDtstamp(dateTime);
   const line_dtstamp = `DTSTAMP:${dtstamp}`;
-
-  const date = sched.date;
-  const url = createUrl(date.year, date.month, date.day);
-  const line_url = `URL:${url}`;
 
   const lines = [
     "BEGIN:VEVENT",
