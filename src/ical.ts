@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import { createUrl } from "./helpers.ts";
 import type { MyEvent } from "./types.ts";
 
 const lines_start = [
@@ -62,6 +63,10 @@ export const transformVEvent = (sched: MyEvent) => {
   const dtstamp = getCurrentDtstamp(dateTime);
   const line_dtstamp = `DTSTAMP:${dtstamp}`;
 
+  const date = sched.date;
+  const url = createUrl(date.year, date.month, date.day);
+  const line_url = `URL:${url}`;
+
   const lines = [
     "BEGIN:VEVENT",
     line_uid,
@@ -70,6 +75,7 @@ export const transformVEvent = (sched: MyEvent) => {
     line_dtend,
     line_summary,
     line_description,
+    line_url,
     "LOCATION:서울월드컵경기장",
     "END:VEVENT",
   ];
