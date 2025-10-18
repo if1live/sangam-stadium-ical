@@ -454,12 +454,12 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
-UID:20251018-afc12a2d0ef6f7ac032e5b7d9d19c48d@yourcalendar.com
+UID:20251018-e994f749fcc5d15116689c04a5da0c4f@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20251018
 DTEND;TZID=Asia/Seoul:20251018
 SUMMARY:2025 K리그1
-DESCRIPTION:[2025 K리그1]\n대...
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 포항(14:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050
 URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=10&day=18&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
