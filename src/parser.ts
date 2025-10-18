@@ -3,8 +3,14 @@ import type { Schedule } from "./types.ts";
 
 const reNumber = /^\d+$/;
 
-export const extractDay = (trElem: ParentNode) => {
-  for (const child of trElem.childNodes) {
+const extractDay = (tdElem: Element): number => {
+  // 날짜 획득.
+  // 일반적으로는 first child를 그대로 써도 되지만 today일때는 따로 처리해야한다.
+  for (const child of tdElem.childNodes) {
+    if (child.nodeType !== child.TEXT_NODE) {
+      continue;
+    }
+
     const text = child.textContent?.trim();
     if (!text) {
       continue;
@@ -92,31 +98,85 @@ export const parseSchedule = (lines: string[]): Schedule => {
   return content;
 };
 
+type ExtractContentFn = (elem: Element) => string;
+
+/*
+패턴 A: anchor tag 내부에 상세 정보가 있음
+.calendar tbody a -> attribute title 사용
+<td onclick="thisSchedule('2025','10','14','worldcupst');" onmouseleave="hideThisSch(this);">
+  14
+  <p>
+    <a href="#none" title="경 기 명 : 남자축구 국가대표팀 친선경기 파라과이전 어쩌고저쩌고">
+      경 기 명 : 남자축...<img src="/open_content/main/images/sub/icon_sch.gif" alt="일정">
+    </a>
+  </p>
+  <div class="overCon" style="display:none;">경 기 명 : 남자축...</div>
+</td>
+*/
+const extractContentFromAnchor: ExtractContentFn = (elem) => {
+  return elem.attributes.getNamedItem("title")?.value ?? "";
+};
+
+/*
+패턴 B: anchor tag에 상세 정보 없음
+.calendar tbody div로 그나마 유추할수 있음
+<td class="sat today" onclick="thisSchedule('2025','10','18','worldcupst');" onmouseleave="hideThisSch(this);">
+  <span>Today</span>
+  18
+  <p>
+    <img src="/open_content/main/images/sub/icon_sch.gif" alt="일정">
+  </p>
+  <div class="overCon" style="display:none;">[2025 K리그1]대...</div>
+</td>
+*/
+const extractContentFromDiv: ExtractContentFn = (elem) => {
+  return elem.textContent?.trim() ?? "";
+};
+
+/*
+패턴C: 일정 없음
+p tag 비어있음
+<td onclick="thisSchedule('2025','10','16','worldcupst');" onmouseleave="hideThisSch(this);">
+  16
+  <p></p>
+</td>
+*/
+
 export const parseMonthHtml = (year: number, month: number, html: string) => {
   const dom = new JSDOM(html);
   const document = dom.window.document;
 
   const results = [];
 
-  const anchorElements = document.querySelectorAll(".calendar tbody a");
-  for (const anchorElem of anchorElements) {
-    const trElem = anchorElem.parentNode?.parentNode;
-    if (!trElem) {
+  const selectors = '.calendar tbody td[onclick]:not([onclick=""])';
+  const elements = document.querySelectorAll(selectors);
+  for (const tdElem of elements) {
+    // 날짜 획득. today일때는 따로 처리해야한다.
+    const day = extractDay(tdElem);
+    const date = { year, month, day };
+
+    let text: string | null = null;
+
+    const anchorEl = tdElem.querySelector("a");
+    text = text || (anchorEl ? extractContentFromAnchor(anchorEl) : null);
+
+    const divEl = tdElem.querySelector("div.overCon");
+    text = text || (divEl ? extractContentFromDiv(divEl) : null);
+
+    if (!text) {
+      // 일정 없음
       continue;
     }
 
-    const day = extractDay(trElem);
-
-    const title: string =
-      anchorElem.attributes.getNamedItem("title")?.value ?? "";
-    const lines = title
+    const lines = text
       .split("\n")
       .map((x) => x.trim())
       .filter((x) => x.length > 0);
-
-    const date = { year, month, day };
     const schedule = parseSchedule(lines);
-    results.push({ date, schedule, lines });
+
+    console.log(`${year}-${month}-${day}: ${schedule.title}`);
+    results.push({ schedule, date, lines });
   }
+
   return results;
 };
