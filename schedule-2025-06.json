@@ -1,12 +1,12 @@
 [
   {
+    "schedule": {
+      "title": "2026 북중미월드컵 아시아지역 3차예선 대한민국 vs 쿠웨이트"
+    },
     "date": {
       "year": 2025,
       "month": 6,
       "day": 10
-    },
-    "schedule": {
-      "title": "2026 북중미월드컵 아시아지역 3차예선 대한민국 vs 쿠웨이트"
     },
     "lines": [
       "경 기 명 : 2026 북중미월드컵 아시아지역 3차예선 대한민국 vs 쿠웨이트",
@@ -14,15 +14,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 6,
-      "day": 12
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 6,
+      "day": 12
     },
     "lines": [
       "[2025 WK리그]",
@@ -35,15 +35,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 6,
-      "day": 17
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 6,
+      "day": 17
     },
     "lines": [
       "[2025 K리그1]",
@@ -55,15 +55,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 6,
-      "day": 23
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 6,
+      "day": 23
     },
     "lines": [
       "[2025 WK리그]",
@@ -76,15 +76,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 6,
-      "day": 26
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 6,
+      "day": 26
     },
     "lines": [
       "[2025 WK리그]",
@@ -97,15 +97,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 6,
-      "day": 29
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 6,
+      "day": 29
     },
     "lines": [
       "[2025 K리그1]",

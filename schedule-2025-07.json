@@ -1,14 +1,14 @@
 [
   {
-    "date": {
-      "year": 2025,
-      "month": 7,
-      "day": 2
-    },
     "schedule": {
       "title": "2025 코리아컵 8강",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 7,
+      "day": 2
     },
     "lines": [
       "[2025 코리아컵 8강]",
@@ -20,15 +20,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 7,
-      "day": 20
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 7,
+      "day": 20
     },
     "lines": [
       "[2025 K리그1]",
@@ -40,15 +40,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 7,
-      "day": 21
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 7,
+      "day": 21
     },
     "lines": [
       "[2025 WK리그]",
@@ -61,14 +61,14 @@
     ]
   },
   {
+    "schedule": {
+      "title": "2025 FC서울 친선경기",
+      "tel": "010-4569-9024"
+    },
     "date": {
       "year": 2025,
       "month": 7,
       "day": 31
-    },
-    "schedule": {
-      "title": "2025 FC서울 친선경기",
-      "tel": "010-4569-9024"
     },
     "lines": [
       "[2025 FC서울 친선경기]",

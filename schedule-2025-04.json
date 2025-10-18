@@ -1,14 +1,14 @@
 [
   {
-    "date": {
-      "year": 2025,
-      "month": 4,
-      "day": 10
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 4,
+      "day": 10
     },
     "lines": [
       "[2025 WK리그]",
@@ -21,15 +21,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 4,
-      "day": 12
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 4,
+      "day": 12
     },
     "lines": [
       "[2025 K리그1]",
@@ -41,15 +41,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 4,
-      "day": 14
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 4,
+      "day": 14
     },
     "lines": [
       "[2025 WK리그]",
@@ -62,15 +62,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 4,
-      "day": 19
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 4,
+      "day": 19
     },
     "lines": [
       "[2025 K리그1]",
@@ -83,15 +83,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 4,
-      "day": 24
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 4,
+      "day": 24
     },
     "lines": [
       "[2025 WK리그]",
@@ -104,13 +104,13 @@
     ]
   },
   {
+    "schedule": {
+      "title": "서울월드컵경기장 공공행사"
+    },
     "date": {
       "year": 2025,
       "month": 4,
       "day": 30
-    },
-    "schedule": {
-      "title": "서울월드컵경기장 공공행사"
     },
     "lines": [
       "[서울월드컵경기장 공공행사]",

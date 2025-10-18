@@ -1,14 +1,14 @@
 [
   {
-    "date": {
-      "year": 2025,
-      "month": 8,
-      "day": 3
-    },
     "schedule": {
       "title": "2025 쿠팡플레이시리즈",
       "site": "www.coupangplay.com",
       "tel": "1600-9800"
+    },
+    "date": {
+      "year": 2025,
+      "month": 8,
+      "day": 3
     },
     "lines": [
       "2025 쿠팡플레이시리즈",
@@ -20,15 +20,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 8,
-      "day": 8
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 8,
+      "day": 8
     },
     "lines": [
       "[2025 K리그1]",
@@ -40,15 +40,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 8,
-      "day": 24
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 8,
+      "day": 24
     },
     "lines": [
       "[2025 K리그1]",
@@ -60,15 +60,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 8,
-      "day": 25
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 8,
+      "day": 25
     },
     "lines": [
       "[2025 WK리그]",
@@ -81,15 +81,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 8,
-      "day": 31
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 8,
+      "day": 31
     },
     "lines": [
       "[2025 K리그1]",

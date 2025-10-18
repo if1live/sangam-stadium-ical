@@ -1,13 +1,13 @@
 [
   {
+    "schedule": {
+      "title": "축구행사"
+    },
     "date": {
       "year": 2025,
       "month": 9,
       "day": 13
     },
-    "schedule": {
-      "title": "축구행사"
-    },
     "lines": [
       "[축구행사]",
       "일 시 : 2025.09.13(토) ~ 14(일)",
@@ -15,14 +15,14 @@
     ]
   },
   {
+    "schedule": {
+      "title": "축구행사"
+    },
     "date": {
       "year": 2025,
       "month": 9,
       "day": 14
     },
-    "schedule": {
-      "title": "축구행사"
-    },
     "lines": [
       "[축구행사]",
       "일 시 : 2025.09.13(토) ~ 14(일)",
@@ -30,15 +30,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 9,
-      "day": 15
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 9,
+      "day": 15
     },
     "lines": [
       "[2025 WK리그]",
@@ -51,13 +51,13 @@
     ]
   },
   {
+    "schedule": {
+      "title": "국제청소년축구대회 U18(EOU컵)"
+    },
     "date": {
       "year": 2025,
       "month": 9,
       "day": 20
-    },
-    "schedule": {
-      "title": "국제청소년축구대회 U18(EOU컵)"
     },
     "lines": [
       "국제청소년축구대회 U18(EOU컵)",
@@ -66,15 +66,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 9,
-      "day": 21
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 9,
+      "day": 21
     },
     "lines": [
       "[2025 K리그1]",
@@ -86,13 +86,13 @@
     ]
   },
   {
+    "schedule": {
+      "title": "국제청소년축구대회 U18(EOU컵)"
+    },
     "date": {
       "year": 2025,
       "month": 9,
       "day": 22
-    },
-    "schedule": {
-      "title": "국제청소년축구대회 U18(EOU컵)"
     },
     "lines": [
       "국제청소년축구대회 U18(EOU컵)",
@@ -101,13 +101,13 @@
     ]
   },
   {
+    "schedule": {
+      "title": "국제청소년축구대회 U18(EOU컵)"
+    },
     "date": {
       "year": 2025,
       "month": 9,
       "day": 23
-    },
-    "schedule": {
-      "title": "국제청소년축구대회 U18(EOU컵)"
     },
     "lines": [
       "국제청소년축구대회 U18(EOU컵)",
@@ -116,13 +116,13 @@
     ]
   },
   {
+    "schedule": {
+      "title": "국제청소년축구대회 U18(EOU컵)"
+    },
     "date": {
       "year": 2025,
       "month": 9,
       "day": 24
-    },
-    "schedule": {
-      "title": "국제청소년축구대회 U18(EOU컵)"
     },
     "lines": [
       "국제청소년축구대회 U18(EOU컵)",
@@ -131,13 +131,13 @@
     ]
   },
   {
+    "schedule": {
+      "title": "국제청소년축구대회 U18(EOU컵)"
+    },
     "date": {
       "year": 2025,
       "month": 9,
       "day": 25
-    },
-    "schedule": {
-      "title": "국제청소년축구대회 U18(EOU컵)"
     },
     "lines": [
       "국제청소년축구대회 U18(EOU컵)",
@@ -146,15 +146,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 9,
-      "day": 27
-    },
     "schedule": {
       "title": "2025 K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2025,
+      "month": 9,
+      "day": 27
     },
     "lines": [
       "[2025 K리그1]",
@@ -166,13 +166,13 @@
     ]
   },
   {
+    "schedule": {
+      "title": "국제청소년축구대회 U18(EOU컵)"
+    },
     "date": {
       "year": 2025,
       "month": 9,
       "day": 28
-    },
-    "schedule": {
-      "title": "국제청소년축구대회 U18(EOU컵)"
     },
     "lines": [
       "국제청소년축구대회 U18(EOU컵)",
@@ -181,15 +181,15 @@
     ]
   },
   {
-    "date": {
-      "year": 2025,
-      "month": 9,
-      "day": 29
-    },
     "schedule": {
       "title": "2025 WK리그",
       "site": "한국여자축구연맹(KWFF)",
       "tel": "02-490-2794"
+    },
+    "date": {
+      "year": 2025,
+      "month": 9,
+      "day": 29
     },
     "lines": [
       "[2025 WK리그]",
@@ -202,13 +202,13 @@
     ]
   },
   {
+    "schedule": {
+      "title": "FC서울 ACLE 1차전 Buriram United 전"
+    },
     "date": {
       "year": 2025,
       "month": 9,
       "day": 30
-    },
-    "schedule": {
-      "title": "FC서울 ACLE 1차전 Buriram United 전"
     },
     "lines": [
       "경 기 명 : FC서울 ACLE 1차전 Buriram United 전",
