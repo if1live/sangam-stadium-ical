@@ -134,53 +134,43 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
-UID:20250803-b52502bf7e16cdeeba91391bbf3eab36@yourcalendar.com
+UID:20251010-128e9b73104f0635f5ea50f36a684a0c@yourcalendar.com
 DTSTAMP:20250101T000000Z
-DTSTART;TZID=Asia/Seoul:20250803
-DTEND;TZID=Asia/Seoul:20250803
-SUMMARY:2025 쿠팡플레이시리즈
-DESCRIPTION:2025 쿠팡플레이시리즈\n대 진 : 토트넘vs 뉴캐슬\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : www.coupangplay.com\n- 대표번호 : 1600-9800\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=03&site_div=worldcupst
-URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=03&site_div=worldcupst
+DTSTART;TZID=Asia/Seoul:20251010
+DTEND;TZID=Asia/Seoul:20251010
+SUMMARY:남자축구 국가대표팀 친선경기 브라질전
+DESCRIPTION:경 기 명 : 남자축구 국가대표팀 친선경기 브라질전\n경 기 일 : 2025. 10. 10(금) 20:00\n경기문의 : 대한축구협회 (041.538.6363)\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=10&day=10&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=10&day=10&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
-UID:20250808-7d120b4ad1d7bd5509ad30db94b50454@yourcalendar.com
+UID:20251014-3f99d2928d36cd3e19863b259d07ecff@yourcalendar.com
 DTSTAMP:20250101T000000Z
-DTSTART;TZID=Asia/Seoul:20250808
-DTEND;TZID=Asia/Seoul:20250808
+DTSTART;TZID=Asia/Seoul:20251014
+DTEND;TZID=Asia/Seoul:20251014
+SUMMARY:남자축구 국가대표팀 친선경기 파라과이전
+DESCRIPTION:경 기 명 : 남자축구 국가대표팀 친선경기 파라과이전\n경 기 일 : 2025. 10. 14(화) 20:00\n경기문의 : 대한축구협회 (041.538.6363)\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=10&day=14&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=10&day=14&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
+UID:20251018-8cdd23b0fd3a928add2aa75d8fbf6950@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20251018
+DTEND;TZID=Asia/Seoul:20251018
 SUMMARY:2025 K리그1
-DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 대구(19:30)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=08&site_div=worldcupst
-URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=08&site_div=worldcupst
+DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 포항(14:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=10&day=18&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=10&day=18&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
-UID:20250824-4b116a37007b6ae3f7d6b052cbe450c7@yourcalendar.com
+UID:20251026-6e44f33c1d925513d7b83a221bcf6402@yourcalendar.com
 DTSTAMP:20250101T000000Z
-DTSTART;TZID=Asia/Seoul:20250824
-DTEND;TZID=Asia/Seoul:20250824
-SUMMARY:2025 K리그1
-DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 울산(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=24&site_div=worldcupst
-URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=24&site_div=worldcupst
-LOCATION:서울월드컵경기장
-END:VEVENT
-BEGIN:VEVENT
-UID:20250825-6be9c2c449546b1e83bfc6171c7ff723@yourcalendar.com
-DTSTAMP:20250101T000000Z
-DTSTART;TZID=Asia/Seoul:20250825
-DTEND;TZID=Asia/Seoul:20250825
-SUMMARY:2025 WK리그
-DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 창녕WFC\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=25&site_div=worldcupst
-URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=25&site_div=worldcupst
-LOCATION:서울월드컵경기장
-END:VEVENT
-BEGIN:VEVENT
-UID:20250831-0e7228e67cce8964553a9477282b8f77@yourcalendar.com
-DTSTAMP:20250101T000000Z
-DTSTART;TZID=Asia/Seoul:20250831
-DTEND;TZID=Asia/Seoul:20250831
-SUMMARY:2025 K리그1
-DESCRIPTION:[2025 K리그1]\n대 진 : 서울 vs 안양(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 :http://www.fcseoul.com/\n- 대표번호 : 02-306-5050\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=31&site_div=worldcupst
-URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=08&day=31&site_div=worldcupst
+DTSTART;TZID=Asia/Seoul:20251026
+DTEND;TZID=Asia/Seoul:20251026
+SUMMARY:2025 K리그1 파이널
+DESCRIPTION:[2025 K리그1 파이널]\n대 진 : 서울 vs 강원(14:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=10&day=26&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=10&day=26&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
