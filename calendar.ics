@@ -494,6 +494,16 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
+UID:20251118-402b2e40836a6ac76bd61b076b59d45d@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20251118
+DTEND;TZID=Asia/Seoul:20251118
+SUMMARY:남자축구 국가대표팀 친선경기 가나전
+DESCRIPTION:경 기 명 : 남자축구 국가대표팀 친선경기 가나전\n경 기 일 : 2025. 11. 18(화) 20:00\n경기문의 : 대한축구협회 (041.538.6363)\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=18&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=18&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
 UID:20251122-1fe426506f281da66316d70f37e685fb@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20251122
