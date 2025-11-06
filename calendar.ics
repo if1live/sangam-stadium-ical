@@ -474,12 +474,12 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
-UID:20251101-fa0a2aae4dac26fb7cadf2061049cc6c@yourcalendar.com
+UID:20251101-460712de8a39a6ca1179f2c3abea17de@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20251101
 DTEND;TZID=Asia/Seoul:20251101
 SUMMARY:2025 WK리그
-DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 세종스포츠토토\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 14:00 ~ 16:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=01&site_div=worldcupst
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 인천현대제철\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 14:00 ~ 16:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=01&site_div=worldcupst
 URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=01&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
@@ -491,6 +491,16 @@ DTEND;TZID=Asia/Seoul:20251104
 SUMMARY:FC서울 ACLE 홈 2차천 Chengdu Rongcheng FC전
 DESCRIPTION:경 기 명 : FC서울 ACLE 홈 2차천 Chengdu Rongcheng FC전\n경 기 일 : 2025. 11. 4(화) 19:00\n경기문의 : FC서울 (02.306.5050)\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=04&site_div=worldcupst
 URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=04&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
+UID:20251108-8f7ef2e88bbc58afbde08d3d7736c15f@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20251108
+DTEND;TZID=Asia/Seoul:20251108
+SUMMARY:2025 WK리그
+DESCRIPTION:[2025 WK리그]\n대 진 : 서울시청 vs 인천현대제철\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 14:00 ~ 16:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2794\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=08&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=08&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
