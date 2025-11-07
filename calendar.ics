@@ -523,4 +523,24 @@ DESCRIPTION:[2025 K리그1 파이널]\n대 진 : 서울 vs 김천(14:00)\n장 �
 URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=22&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
+BEGIN:VEVENT
+UID:20251206-287b18efd762acfccfb8cf567b5a66d7@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20251206
+DTEND;TZID=Asia/Seoul:20251206
+SUMMARY:2025 코리아컵 결승
+DESCRIPTION:경 기 명 : 2025 코리아컵 결승\n경 기 일 : 2025. 12. 6(토) 13:30\n경기문의 : 대한축구협회 (041.538.6363)\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=12&day=06&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=12&day=06&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
+UID:20251210-5a835e231729ce66a90a1dfba48eadfc@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20251210
+DTEND;TZID=Asia/Seoul:20251210
+SUMMARY:FC서울 ACLE 홈 3차천 Melbourne City FC
+DESCRIPTION:경 기 명 : FC서울 ACLE 홈 3차천 Melbourne City FC\n경 기 일 : 2025. 12. 10(수) 19:00\n경기문의 : FC서울 (02.306.5050)\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=12&day=10&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=12&day=10&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
 END:VCALENDAR
