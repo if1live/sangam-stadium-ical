@@ -514,12 +514,12 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
-UID:20251122-1fe426506f281da66316d70f37e685fb@yourcalendar.com
+UID:20251122-211db7e6b49ef5a6183cc5b652dc174b@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20251122
 DTEND;TZID=Asia/Seoul:20251122
-SUMMARY:2025 K리그1 파이널
-DESCRIPTION:[2025 K리그1 파이널]\n대 진 : 서울 vs 김천(14:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=22&site_div=worldcupst
+SUMMARY:2025 K리그1 파이...
+DESCRIPTION:[2025 K리그1 파이...\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=22&site_div=worldcupst
 URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=11&day=22&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
