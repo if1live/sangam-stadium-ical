@@ -663,4 +663,14 @@ DESCRIPTION:[2026 K리그1]\n대 진 : 서울 vs 부천(19:30)\n장 소 : 서울
 URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=08&day=25&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
+BEGIN:VEVENT
+UID:20260905-e8f3ca30bb4e9c2c22926cfc0dc590cd@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20260905
+DTEND;TZID=Asia/Seoul:20260905
+SUMMARY:2026 K리그1
+DESCRIPTION:[2026 K리그1]\n대 진 : 서울 vs 인천(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=09&day=05&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=09&day=05&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
 END:VCALENDAR
