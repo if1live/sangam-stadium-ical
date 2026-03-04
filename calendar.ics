@@ -544,6 +544,16 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2025&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
+UID:20260304-eb8e4908676394fa084b0c9b23ce7cc2@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20260304
+DTEND;TZID=Asia/Seoul:20260304
+SUMMARY:2025/26 ACLE Round of 16
+DESCRIPTION:[2025/26 ACLE Round of 16]\n대 진 : 서울 vs 고베(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=03&day=04&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=03&day=04&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
 UID:20260322-b15839b713401b9a1f30a715e0f11ce1@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20260322

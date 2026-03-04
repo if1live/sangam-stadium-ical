@@ -1,6 +1,26 @@
 [
   {
     "schedule": {
+      "title": "2025/26 ACLE Round of 16",
+      "site": "http://www.fcseoul.com/",
+      "tel": "02-306-5050"
+    },
+    "date": {
+      "year": 2026,
+      "month": 3,
+      "day": 4
+    },
+    "lines": [
+      "[2025/26 ACLE Round of 16]",
+      "대 진 : 서울 vs 고베(19:00)",
+      "장 소 : 서울월드컵경기장",
+      "■ 축구경기 관련 문의",
+      "- 홈페이지 : http://www.fcseoul.com/",
+      "- 대표번호 : 02-306-5050"
+    ]
+  },
+  {
+    "schedule": {
       "title": "2026K리그1",
       "site": "http://www.fcseoul.com/",
       "tel": "02-306-5050"
