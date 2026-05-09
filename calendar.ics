@@ -654,6 +654,16 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
+UID:20260606-a2fe34676cdc95abc43cb089bdeff057@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20260606
+DTEND;TZID=Asia/Seoul:20260606
+SUMMARY:2026 챔피언스 임팩트인 서울
+DESCRIPTION:[2026 챔피언스 임팩트인 서울]\n대 진 : FC바르셀로나 레전드vs 더 레즈\n장 소 : 서울월드컵경기장\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=06&day=06&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=06&day=06&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
 UID:20260617-7e3807f1179c6d26114f2e577dc1da69@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20260617
