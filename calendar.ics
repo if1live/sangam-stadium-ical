@@ -664,6 +664,16 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
+UID:20260613-97c99d5b0d57789207c291f122055826@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20260613
+DTEND;TZID=Asia/Seoul:20260613
+SUMMARY:2026 렛츠 워크 투게더
+DESCRIPTION:[2026 렛츠 워크 투게더]\n주최 : 따뜻한동행, 한미글로벌\n장소 : 서울월드컵경기장\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=06&day=13&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=06&day=13&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
 UID:20260617-204fd0589e3482d17129dde66959e05f@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20260617
