@@ -684,16 +684,6 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
-UID:20260626-f771e4e1aa5ac8546e522a4314abf626@yourcalendar.com
-DTSTAMP:20250101T000000Z
-DTSTART;TZID=Asia/Seoul:20260626
-DTEND;TZID=Asia/Seoul:20260626
-SUMMARY:2026WK리그
-DESCRIPTION:[2026WK리그]\n대 진 : 서울시청 vs 화천KSPO\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2890\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=06&day=26&site_div=worldcupst
-URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=06&day=26&site_div=worldcupst
-LOCATION:서울월드컵경기장
-END:VEVENT
-BEGIN:VEVENT
 UID:20260701-95838ab4743f5d6d5f9bdb9433f31515@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20260701
@@ -821,6 +811,16 @@ DTEND;TZID=Asia/Seoul:20260905
 SUMMARY:2026 K리그1
 DESCRIPTION:[2026 K리그1]\n대 진 : 서울 vs 인천(19:00)\n장 소 : 서울월드컵경기장\n■ 축구경기 관련 문의\n- 홈페이지 : http://www.fcseoul.com/\n- 대표번호 : 02-306-5050\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=09&day=05&site_div=worldcupst
 URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=09&day=05&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
+UID:20260914-a961c45159d7a3ff9cf797a19d3a78e6@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20260914
+DTEND;TZID=Asia/Seoul:20260914
+SUMMARY:2026WK리그
+DESCRIPTION:[2026WK리그]\n대 진 : 서울시청 vs 화천KSPO\n장 소 : 서울월드컵경기장 보조경기장\n시 간 : 19:00 ~ 21:00\n* 축구경기 관련 문의\n- 홈페이지 : 한국여자축구연맹(KWFF)\n- 대표번호 : 02-490-2890\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=09&day=14&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=09&day=14&site_div=worldcupst
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
