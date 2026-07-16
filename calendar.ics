@@ -764,6 +764,26 @@ URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=
 LOCATION:서울월드컵경기장
 END:VEVENT
 BEGIN:VEVENT
+UID:20260805-a8ca0ba63db69bfae14f7c875fb125a2@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20260805
+DTEND;TZID=Asia/Seoul:20260805
+SUMMARY:2026 쿠팡플레이시리즈
+DESCRIPTION:[2026 쿠팡플레이시리즈]\n- 2026. 8. 5.(수) 20:00 팀 K리그 vs 맨체스터 시티\n- 2026. 8. 9.(수) 20:00 아틀레티코 마드리드 vs 맨체스터 시티\n문의 : 쿠팡플레이 고객센터 1600-9800\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=08&day=05&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=08&day=05&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
+UID:20260809-a8916ff3d6e868e858f96312834597db@yourcalendar.com
+DTSTAMP:20250101T000000Z
+DTSTART;TZID=Asia/Seoul:20260809
+DTEND;TZID=Asia/Seoul:20260809
+SUMMARY:2026 쿠팡플레이시리즈
+DESCRIPTION:[2026 쿠팡플레이시리즈]\n- 2026. 8. 5.(수) 20:00 팀 K리그 vs 맨체스터 시티\n- 2026. 8. 9.(수) 20:00 아틀레티코 마드리드 vs 맨체스터 시티\n문의 : 쿠팡플레이 고객센터 1600-9800\nhttps://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=08&day=09&site_div=worldcupst
+URL:https://www.sisul.or.kr/open_content/sub/schedule/detail.do?year=2026&month=08&day=09&site_div=worldcupst
+LOCATION:서울월드컵경기장
+END:VEVENT
+BEGIN:VEVENT
 UID:20260814-5d97dc398f2e871bea6e24fa7964e21b@yourcalendar.com
 DTSTAMP:20250101T000000Z
 DTSTART;TZID=Asia/Seoul:20260814
